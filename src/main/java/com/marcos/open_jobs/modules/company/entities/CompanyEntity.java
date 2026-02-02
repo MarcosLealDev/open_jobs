@@ -24,13 +24,13 @@ public class CompanyEntity {
     private UUID id;
 
     @NotBlank()
-    @Pattern(regexp = "\\S+", message="WRONG, no blah blah, you dummass!")
+    @Pattern(regexp = "\\S+", message="WRONG, no blah blah, you dumbass!")
     private String username;
 
     @Email(message="Email not valid. Fix it, now!")
     private String email;
 
-    @Length(min=3, max=10, message = "Between 3 and 10 characters, dumbass.")
+    @Length(min=3, max=100, message = "Between 3 and 10 characters, dumbass.")
     private String password;
 
     @URL
