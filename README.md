@@ -36,3 +36,15 @@ When running local, send all commands to
 http://localhost:8080
 ```
 To add a candidate, use
+```thymeleafurlexpressions
+POST localhost:8080/candidate
+
+body {
+    "username":"xx leal",
+    "password":"12567",
+    "name":"",
+    "email":"xxxx@x.com",
+    "description":"",
+    "resume":""
+}
+```
