@@ -1,5 +1,6 @@
-package com.marcos.open_jobs.modules.candidate;
+package com.marcos.open_jobs.modules.candidate.repositories;
 
+import com.marcos.open_jobs.modules.candidate.entities.CandidateEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

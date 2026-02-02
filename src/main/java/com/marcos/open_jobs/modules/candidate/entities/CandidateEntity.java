@@ -1,4 +1,4 @@
-package com.marcos.open_jobs.modules.candidate;
+package com.marcos.open_jobs.modules.candidate.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

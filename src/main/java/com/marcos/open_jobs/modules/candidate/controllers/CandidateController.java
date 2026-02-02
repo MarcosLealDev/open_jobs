@@ -1,8 +1,6 @@
 package com.marcos.open_jobs.modules.candidate.controllers;
 
-import com.marcos.open_jobs.exceptions.UserFoundException;
-import com.marcos.open_jobs.modules.candidate.CandidateEntity;
-import com.marcos.open_jobs.modules.candidate.CandidateRepository;
+import com.marcos.open_jobs.modules.candidate.entities.CandidateEntity;
 import com.marcos.open_jobs.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

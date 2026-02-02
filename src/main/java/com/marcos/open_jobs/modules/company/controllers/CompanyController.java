@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("company")
+@RequestMapping("/company")
 public class CompanyController {
     @Autowired
     private CreateCompanyUseCase createCompanyUseCase;
@@ -23,7 +23,6 @@ public class CompanyController {
             var result = this.createCompanyUseCase.execute(companyEntity);
             return ResponseEntity.ok().body(result);
         } catch(Exception e) {
-                e.printStackTrace();
                return ResponseEntity.badRequest().body(e.getMessage());
         }
 

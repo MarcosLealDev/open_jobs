@@ -18,7 +18,7 @@ public class JobEntity {
     private String description;
     private String benefits;
 
-    @NotBlank(message = "You must fill the Level")
+    @NotBlank(message = "You must fill up the Level")
     private String level;
 
     @ManyToOne()
